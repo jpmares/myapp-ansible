@@ -5,7 +5,7 @@ pipeline {
         stage('GET SOURCE CODE') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/ravishsubramanya/myapp-ansible.git'
+                git 'https://github.com/jpmares/myapp-ansible.git'
             }
 
         }
